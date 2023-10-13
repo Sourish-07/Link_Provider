@@ -70,13 +70,7 @@
 }
 .instagram-frame {
   border-radius: 25px;
-  background: radial-gradient(
-    50% 50%at 50% 50%,
-    #0029ff,
-    rgba(108, 41, 225, 0.56) 44.27%,
-    rgba(128, 0, 128, 0.56) 44.28%,
-    rgba(255, 0, 0, 0)
-  );
+  background-color: #ff1493,
   border: 1px solid var(--color-black);
   flex-direction: row;
   justify-content: center;
