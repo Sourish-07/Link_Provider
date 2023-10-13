@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="./global.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap"
+    />
+  </head>
+  <body>
+    <div class="phone">
+      <div class="frame">
+        <div class="frame1">
+          <img
+            class="profile-picture-icon"
+            alt=""
+            src="./public/profile-picture@2x.png"
+          />
+
+          <div class="frame2">
+            <div class="sourish-chatterjee">SOURISH CHATTERJEE</div>
+          </div>
+        </div>
+        <div class="linkedin-frame" id="linkedInFrameContainer">
+          <div class="linkedin">LinkedIn</div>
+        </div>
+      </div>
+      <div class="frame3">
+        <div class="github-frame" id="githubFrameContainer">
+          <div class="linkedin">GitHub</div>
+        </div>
+        <div class="instagram-frame" id="instagramFrameContainer">
+          <div class="linkedin">INSTAGRAM</div>
+        </div>
+      </div>
+      <div class="facebook-frame" id="facebookFrameContainer">
+        <div class="linkedin">Facebook</div>
+      </div>
+    </div>
+
+    <script>
+      var linkedInFrameContainer = document.getElementById("linkedInFrameContainer");
+      if (linkedInFrameContainer) {
+        linkedInFrameContainer.addEventListener("click", function () {
+          window.open("https://www.linkedin.com/in/sourish-chatterjee-387667245/");
+        });
+      }
+      
+      var githubFrameContainer = document.getElementById("githubFrameContainer");
+      if (githubFrameContainer) {
+        githubFrameContainer.addEventListener("click", function () {
+          window.open("https://github.com/Sourish-07");
+        });
+      }
+      
+      var instagramFrameContainer = document.getElementById(
+        "instagramFrameContainer"
+      );
+      if (instagramFrameContainer) {
+        instagramFrameContainer.addEventListener("click", function () {
+          window.open("https://www.instagram.com/scandium___0721");
+        });
+      }
+      
+      var facebookFrameContainer = document.getElementById("facebookFrameContainer");
+      if (facebookFrameContainer) {
+        facebookFrameContainer.addEventListener("click", function () {
+          window.open("https://www.facebook.com/sourish.chatterjee.355");
+        });
+      }
+      </script>
+  </body>
+</html>

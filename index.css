@@ -1,0 +1,122 @@
+.profile-picture-icon {
+  position: relative;
+  border-radius: 50%;
+  width: 170px;
+  height: 170px;
+  object-fit: cover;
+}
+.sourish-chatterjee {
+  align-self: stretch;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame1,
+.frame2 {
+  align-self: stretch;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: center;
+}
+.frame1 {
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
+}
+.linkedin {
+  flex: 1;
+  position: relative;
+  line-height: 20px;
+  font-weight: 600;
+}
+.frame,
+.linkedin-frame {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.linkedin-frame {
+  border-radius: var(--br-3xl);
+  background-color: #0072b1;
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+  font-size: 30px;
+}
+.frame {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 89px;
+}
+.github-frame {
+  border-radius: var(--br-3xl);
+  background-color: var(--color-black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.frame3,
+.github-frame,
+.instagram-frame {
+  align-self: stretch;
+  display: flex;
+  align-items: center;
+}
+.instagram-frame {
+  border-radius: 25px;
+  background: radial-gradient(
+    50% 50%at 50% 50%,
+    #0029ff,
+    rgba(108, 41, 225, 0.56) 44.27%,
+    rgba(128, 0, 128, 0.56) 44.28%,
+    rgba(255, 0, 0, 0)
+  );
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.frame3 {
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-22xl);
+}
+.facebook-frame,
+.phone {
+  border-radius: var(--br-3xl);
+  display: flex;
+  align-items: center;
+}
+.facebook-frame {
+  align-self: stretch;
+  background-color: #3b5998;
+  border: 1px solid var(--color-black);
+  flex-direction: row;
+  justify-content: center;
+  padding: var(--padding-3xs);
+  cursor: pointer;
+}
+.phone {
+  position: relative;
+  background-color: #9969c7;
+  border: 7px solid #bfbfbf;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 127px 67px;
+  gap: var(--gap-22xl);
+  text-align: center;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
