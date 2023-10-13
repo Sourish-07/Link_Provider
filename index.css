@@ -70,7 +70,7 @@
 }
 .instagram-frame {
   border-radius: 25px;
-  background-color: #ff1493,
+  background-color: #FF0000;
   border: 1px solid var(--color-black);
   flex-direction: row;
   justify-content: center;
